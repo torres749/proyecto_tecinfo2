@@ -1,0 +1,80 @@
+/* Fondo blanco y letras rosa clarito */
+body {
+    background-color: white;
+    color: #f8c8d2;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para la marquesina */
+.marquee {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f8c8d2;
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Título de la página */
+h1 {
+    text-align: center;
+    color: #f8c8d2;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+/* Menú de navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f8c8d2;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de integrantes y docente */
+section {
+    margin: 20px;
+}
+
+section h2, section h3 {
+    text-align: center;
+    color: #f8c8d2;
+}
+
+/* Imagen del proyecto */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Estilo del botón */
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #f8c8d2;
+    color: #333;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #e6a6b3;
+}
