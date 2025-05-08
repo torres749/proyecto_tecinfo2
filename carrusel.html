@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrusel de Imágenes</title>
+    <link rel="stylesheet" href="carrusel.css">
+</head>
+<body>
+    <header>
+        <h1>Carrusel de Imágenes</h1>
+    </header>
+
+    <div class="carousel-container">
+        <button class="carousel-btn prev" onclick="cambiarImagen(-1)">&#10094;</button>
+        
+        <div class="carousel-slide">
+            <img src="image1.jpg" alt="Imagen 1" class="carousel-img">
+            <img src="image2.jpg" alt="Imagen 2" class="carousel-img">
+            <img src="image3.jpg" alt="Imagen 3" class="carousel-img">
+            <img src="image4.jpg" alt="Imagen 4" class="carousel-img">
+            <img src="image5.jpg" alt="Imagen 5" class="carousel-img">
+            <img src="image6.jpg" alt="Imagen 6" class="carousel-img">
+        </div>
+
+        <button class="carousel-btn next" onclick="cambiarImagen(1)">&#10095;</button>
+    </div>
+
+    <script src="carrusel.js"></script>
+</body>
+</html>
